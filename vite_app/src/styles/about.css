@@ -204,6 +204,10 @@
     border-left: 3px solid var(--primary);
   }
   
+  .education-details{
+    color:white;
+  }
+ 
   .education-content h4 {
     font-size: 1.3rem;
     margin-bottom: 10px;
