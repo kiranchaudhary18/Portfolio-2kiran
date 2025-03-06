@@ -1,0 +1,139 @@
+:root {
+    --background: #0a0a0a;
+    --foreground: #ffffff;
+    --primary: #00ffc8;
+    --primary: #00ffc8;
+    --secondary: #ff00aa;
+    --accent: #7000ff;
+    --muted: #333333;
+    --muted-foreground: #888888;
+    --border: #333333;
+    --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --font-mono: "JetBrains Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
+  
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--background);
+    color: var(--foreground);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-family: inherit;
+  }
+  
+  .main-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  section {
+    padding: 100px 0;
+    position: relative;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .section-title h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .title-underline {
+    width: 80px;
+    height: 4px;
+    background: var(--primary);
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .title-underline::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    background: var(--secondary);
+    left: -20px;
+    transform: translateX(-100%);
+  }
+  
+  .title-underline::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    background: var(--accent);
+    right: -20px;
+    transform: translateX(100%);
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background: linear-gradient(90deg, var(--primary), var(--accent));
+    color: var(--background);
+    font-weight: 600;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.3s ease;
+  }
+  
+  .cta-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent), var(--primary));
+    transition: all 0.5s ease;
+    z-index: -1;
+  }
+  
+  .cta-button:hover::before {
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    section {
+      padding: 70px 0;
+    }
+  
+    .section-title h2 {
+      font-size: 2rem;
+    }
+  }
+  
+  
