@@ -110,7 +110,7 @@ export default function Contact() {
               <div className="info-icon">📞</div>
               <div className="info-text">
                 <h4>Phone</h4>
-                <p>+1 (123) 456-7890</p>
+                <p>9106003382</p>
               </div>
             </motion.div>
             
@@ -118,14 +118,14 @@ export default function Contact() {
               <div className="info-icon">✉️</div>
               <div className="info-text">
                 <h4>Email</h4>
-                <p>hello@example.com</p>
+                <p>kiran.chaudhary.cg@gmail.com</p>
               </div>
             </motion.div>
 
           <motion.div className="social-links" variants={itemVariants}>
               <h4>Follow Me</h4>
               <div className="social-icons">
-                <a href="#" className="social-icon">
+                <a href="https://www.linkedin.com/in/chaudharykiran16/" target="_blank" className="social-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
@@ -142,7 +142,7 @@ export default function Contact() {
                     <circle cx="4" cy="4" r="2"></circle>
                   </svg>
                 </a>
-                <a href="#" className="social-icon">
+                <a href="https://x.com/dekaliya_kiran" target="_blank" className="social-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
@@ -157,7 +157,7 @@ export default function Contact() {
                     <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
                   </svg>
                 </a>
-                <a href="#" className="social-icon">
+                <a href="  https://www.instagram.com/chaudhary_kiran_022/"  target="_blank"  className="social-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
@@ -174,7 +174,7 @@ export default function Contact() {
                     <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
                   </svg>
                 </a>
-                <a href="#" className="social-icon">
+                <a href="https://github.com/kiranchaudhary18"  target="_blank"  className="social-icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
