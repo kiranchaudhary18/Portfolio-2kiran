@@ -120,7 +120,7 @@ export default function About() {
             </motion.div>
 
             <motion.div className="about-cta" variants={itemVariants}>
-              <a href="/resume.pdf" className="cta-button">
+              <a href="https://www.canva.com/design/DAGiVLO1n9g/f_J_i_tty_OoG3GLvemP0Q/edit?utm_content=DAGiVLO1n9g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" className="cta-button" target="_blank">
                 Download Resume
               </a>
             </motion.div>
